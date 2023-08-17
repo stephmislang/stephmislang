@@ -373,7 +373,7 @@ span{
 }
 
 .cd{
-    display: inline-block;
+    display:inline-table;
     width: 150px;
     height: 200px;
     color: #fff;
@@ -382,6 +382,7 @@ span{
     background: rgba(255, 255, 255, .2);
     border-radius: 16px;
     margin: 10px 15px;
+    margin-top: 14rem;
     box-sizing: border-box;
     background-position: center;
     box-shadow: 0 4px 30px var(--main-color);
@@ -391,6 +392,7 @@ span{
 
 .cd img{
     text-align: center;
+    height: 85px;
     width: 85px;
     border-radius: 40%;
 }
